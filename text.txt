@@ -1,0 +1,40 @@
+
+    <div class="foto">
+        <div class="coco">
+            <img src="images/logo.png">
+            <h1>Wat als je de familie zou kunnen ontmoeten die voor jou kwam...</h1>
+            <p>De ambitieuze muzikant Miguel bundelt zijn krachten met de charmante bedrieger Hector op een buitegwone reis door het kleurrijke Land der Doden om zijn familiegeschiedenis te onthullen. </p>
+            <a>Tickets</a>
+
+        </div>
+
+
+.foto {
+    width: 1200px;
+    height: 400px;
+    margin: 50px auto;
+    background-image: url(images/coco.jpg);
+    background-size: cover;
+    padding: 100px 30px;
+    font-family: 'Abel', sans-serif;
+    color: white;
+}
+
+.coco {
+    float: right;
+    width: 50%;
+}
+
+img {
+    width: 50%;
+    margin: 0 25%;
+}
+
+a {
+    background-color: orange;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin-top: 40px;
+    position: relative;
+    float: left;
+}
